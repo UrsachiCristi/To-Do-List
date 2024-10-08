@@ -1,0 +1,51 @@
+body{
+    background-color: pink;
+    display: flex;
+    justify-content: center;
+}
+
+.text{
+    color: white;
+    margin-bottom: 15px;
+}
+
+
+.main{
+    padding: 20px;
+    background-color: black;
+    width: 350px;
+    border-radius: 10px;
+    height: auto;
+}
+
+#add{
+    color: gray;
+    border: none;
+    border-bottom: 2px solid white;
+    background-color: transparent;
+    height: 30px;
+}
+#plus{
+    border-radius: 100px;
+    width: 30px;
+    height: 30px;
+    background-color: pink;
+    color: white;
+    border: none;
+}
+
+.task{
+    display: flex;
+    /* justify-content: space-between; */
+    align-items: center;
+    width: 100%;
+    margin-top: 10px;
+    background-color: gray;
+    border-radius: 5px;
+    height: 35px;
+}
+
+.text1{
+    color: white;
+    margin-left: 10px;
+}
