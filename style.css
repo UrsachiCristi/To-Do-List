@@ -21,7 +21,7 @@ body{
 #add{
     color: gray;
     border: none;
-    border-bottom: 2px solid white;
+    border-bottom: 1px solid white;
     background-color: transparent;
     height: 30px;
 }
@@ -48,4 +48,21 @@ body{
 .text1{
     color: white;
     margin-left: 10px;
+    text-align: left;
+}
+
+.radiobtn {
+    display:flex ; 
+    align-items: center; 
+    justify-content: center;
+    height: 10px;
+    transform: scale(1.5); 
+    margin-left: 10px;
+}
+
+.trash{
+    font-size:20px;
+    color:red; 
+    margin-left: auto; 
+    margin-right: 10px;
 }
