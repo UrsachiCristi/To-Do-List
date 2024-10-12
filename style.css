@@ -52,7 +52,7 @@ body {
     color: white;
     margin-left: 10px;
     text-align: left;
-    cursor: pointer;
+    /* cursor: pointer; */
 }
 
 .radiobtn {
@@ -99,6 +99,12 @@ body {
     box-shadow: 0px 0px 10px rgba(49, 116, 116, 0.83);
 }
 
-.text1:hover + .radiobtn{
-    box-shadow: 0px 0px 10px rgba(49, 116, 116, 0.83);
+.fa-pencil{
+    font-size:48px;color: green;
+    cursor: pointer;
+    /* margin-left: auto;  */
+}
+
+.utils{
+    margin-left: auto; 
 }
